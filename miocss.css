@@ -1,0 +1,22 @@
+/* Altezza uguale per tutte le schede prodotto */
+.card {
+    height: 100%;
+}
+
+/* Tabella nelle pagine prodotto */
+table.scheda {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.scheda th {
+    border: 1px solid #cccccc;
+    padding: 8px;
+    background-color: #f2f2f2;
+    width: 35%;
+}
+
+table.scheda td {
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
